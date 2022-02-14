@@ -1,0 +1,17 @@
+print("=========================================")
+print("¡Vamos a jugar! Esto es: Historias Locas")
+print("=========================================")
+
+nombre = input("¿Cuál es tu nombre? ")
+
+bienvenida = f"Bienvenida{nombre}, el juego consiste en ir poniendo palabras y el resultado dará a una historia (lo más problable es que no tenga sentido). ¿Estás lista?"
+
+print(bienvenida)
+
+adj = input("Dame un adjetivo: ")
+verbo1 = input("Dame un verbo: ")
+verbo2 = input("Dame otro verbo: ")
+sustantivo_plural = input("Dame un sustantivo (plural): ")
+madlib = f"¡Programar es tan {adj}! Siempre me emociona porque me encanta {verbo1} problemas. ¡Aprende a {verbo2} con Hackdemy y alcanza tus {sustantivo_plural}"
+
+print(madlib)
